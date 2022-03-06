@@ -53,6 +53,7 @@ export class AppComponent implements OnInit {
       (res) => {
         if (res.success == 1) {
           this.helper.createMessage('success', res.message);
+          this.url = null;
           this.isBtnLoading = false;
           this.getLinks();
         } else {
@@ -76,6 +77,7 @@ export class AppComponent implements OnInit {
       (res) => {
         console.log(shortUrl);
         if (res.success == 1) {
+          this.url = null;
           this.getLinks();
           window.open(full, '_blank');
           // window.location.href = ;
