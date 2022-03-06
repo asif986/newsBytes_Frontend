@@ -1,3 +1,24 @@
+## Architecture
+
+    Main objective of the Architecture is separation concerns and DRY (Don't repeat yourself).
+    I developed complete application with the help of following Technologies.
+
+    Frontend - Angular with ng Zorro framework
+    Backend - Node (Express js) with Mongodb
+
+    The Angular is a most Frontend framework. with the help of we can create single page application
+    Reasons -
+    1.Fast performance
+    2.Excellent Security etc..
+
+    The Node is a javascript runtime, with the help of express js we can easily developed the API's
+
+    The MongoDB database is an Nosql Database. fast-growing database no releations projects.
+
+## Repository Information -
+
+    This Repository contains the (dev_asif branch). dev_asif branch contains updated code.
+
 # UrlShortFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
@@ -21,7 +42,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

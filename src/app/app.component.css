@@ -1,0 +1,15 @@
+.card {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .card {
+    width: auto;
+  }
+}
+
+.short_nm {
+  cursor: pointer;
+  color: blue;
+  text-decoration: dashed;
+}
